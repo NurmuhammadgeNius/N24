@@ -138,9 +138,15 @@ strong {
 }
 
 .header-bottom-nav-item {
+  cursor: pointer;
   margin: 0;
   margin-right: 34.44px;
   font-size: 18px;
+  transition: color 0.2s ease;
+}
+
+.header-bottom-nav-item:hover {
+  color:#7296EC
 }
 
 hr {
@@ -156,7 +162,7 @@ hr {
 .main-top-cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-between;  
 }
 .main-top-cards-item {
   background-color: #F6F6F6;
@@ -165,6 +171,11 @@ hr {
   margin: 0;
   margin-bottom: 10px;
 }
+
+.main-top-cards-item-1{
+  margin-bottom: 0;
+}
+
 .main-top-item-texts {
   margin: 0;
   margin-top: 20px;
@@ -189,11 +200,52 @@ hr {
 
 .main-top-item-texts-p {
   color: #4A4B4C;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 .main-top-item-img {
   margin-left: 17px;
   margin-right: 17px;
+  margin-bottom: 15px;
   display: block;
+}
+
+.main-top-item-little-img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.main-top-img-wrapper {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  margin: auto 17px;
+}
+
+.main-top-img-wrapper-1 {
+  margin-bottom: 15px;
+}
+
+.notfication-sec {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-image: url(../img/Group351.png);
+  background-repeat: no-repeat;
+  margin: 60px 211px;
+  padding: 24px 29px;
+}
+.notification-h3 {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+.notification-a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  background-color: #F78B3B;
+  border-radius: 10px;
+  padding: 13px 30px;
 }
