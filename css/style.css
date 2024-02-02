@@ -154,6 +154,7 @@ span {
   margin-right: 34.44px;
   font-size: 18px;
   transition: color 0.2s ease;
+  color: #7F7F7F;
 }
 
 .header-bottom-nav-item:hover {
@@ -244,8 +245,10 @@ span {
   border-radius: 10px;
   background-image: url(../img/Group351.png);
   background-repeat: no-repeat;
-  margin: 50px 211px;
+  margin: auto;
   padding: 24px 29px;
+  width: 1050px;
+  height: 100px;
 }
 .notification-h3 {
   font-size: 20px;
@@ -309,6 +312,7 @@ span {
 
 .mbct-p {
   font-size: 16px;
+  color: #4A4B4C;
 }
 
 .mb-item-img2-wrp {
@@ -420,4 +424,80 @@ span {
 
 .mbri-texts-last {
   margin-left: 17px;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #7297EF;
+}
+
+.in-footer {
+  margin: auto;
+  width: 998px;
+}
+
+.in-footer-in {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-text {
+  color: #fff;
+}
+
+.footer-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.footer-p {
+  font-size: 12px;
+  line-height: 19px;
+} 
+
+.footer-ul {
+  display: flex;
+  color: #fff;
+}
+
+.footer-ul-1 {
+  list-style: none;
+  margin-right: 100px;
+  margin-top: 83px;
+}
+
+
+.footer-ul-li {
+  margin-bottom: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.footer-ul-li-last-item {
+  margin: 0;
+}
+
+.footer-ul-2 {
+  list-style: none;
+  margin-top: 83px;
+}
+
+.footer-hr {
+  background-color: #CECECE;
+  border: none;
+  height: 1px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  align-items: center;
+}
+
+.footer-img {
+  margin-left: 25px;
+  cursor: pointer;
 }
