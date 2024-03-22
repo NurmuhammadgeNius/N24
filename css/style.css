@@ -155,6 +155,7 @@ span {
   font-size: 18px;
   transition: color 0.2s ease;
   color: #7F7F7F;
+  text-decoration: none;
 }
 
 .header-bottom-nav-item:hover {
