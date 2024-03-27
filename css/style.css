@@ -240,6 +240,11 @@ span {
   margin-bottom: 15px;
 }
 
+.notification {
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
 .notfication-sec {
   display: flex;
   justify-content: space-between;
