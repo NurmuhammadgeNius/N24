@@ -27,6 +27,10 @@ body {
   margin: 0;
 }
 
+strong {
+  color: #2959CE;
+}
+
 .header-top {
   background-color: #f6f6f6;
   height: 105px;
